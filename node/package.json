@@ -1,0 +1,26 @@
+{
+  "name": "node-postgress-docker",
+  "version": "1.0.0",
+  "description": "Small app used to try communication between Docker containers",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "Postgress",
+    "SQL",
+    "Docker"
+  ],
+  "author": "Uri Stolar <uristolar@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/uriStolar/node-postgress-docker#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.5",
+    "pg": "^7.4.0"
+  }
+}

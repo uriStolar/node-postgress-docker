@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+    <p>Vote for your favorite f00d</p>
+    <form action="/vote" method="POST">
+        <div>
+            <label for="sandwiches-btn">Sandwiches</label>
+            <input type="radio" name="myVote" id="sandwiches-btn" value="sandwiches" />
+        </div>
+        <div>
+            <label for="tacos-btn">Tacos</label>
+            <input type="radio" name="myVote" id="tacos-btn" value="tacos" />
+        </div>
+        <input type="submit" name="submit" id="submit" value="Vote!" />
+    </form>
+    <ul>
+        <li>Total votes for Sandwiches: <%= votes.sandwiches %></li>
+        <li>Total votes for Tacos: <%= votes.tacos %></li>
+    </ul>
+</body>
+</html>
