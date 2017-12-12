@@ -29,7 +29,7 @@ cd node && docker image build -t node-server . && docker container run --name no
 Once it's done, you should be able to visualize the form by browsing http://localhost:8888
 
 
-**Notes:** You have to replace [absolute-path-to/node-postgress-docker] to the path for this project on your local filesystem, without the `[]`.
+**Notes:** You have to replace the [absolute-path-to/node-postgress-docker] to the path for this project on your local filesystem, without the `[]`, **ON BOTH COMMANDS ABOVE!!**.
 
 Also, you don't have to use `node-db` or `node-server` as tags for the Docker containers, you can use any string you like.
 
